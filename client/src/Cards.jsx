@@ -15,7 +15,6 @@ const Cards = () => {
 
     return ( 
         <div className="cards">
-            <h2>All cards</h2>
             <div className="card-list">
                 {cards.map((card) => (
                     <div className="card-preview" key={card.id}>

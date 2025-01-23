@@ -5,12 +5,12 @@ const Navbar = () => {
             <div className="links">
                 <a href="/create" style={{
                     color: "white",
-                    backgroundColor: "green",
+                    backgroundColor: "black",
                     borderRadius: '8px'
                 }}>Home</a>
                 <a href="/create" style={{
                     color: "white",
-                    backgroundColor: "#f1356d",
+                    backgroundColor: "black",
                     borderRadius: '8px'
                  }}>Cards</a>
             </div>
