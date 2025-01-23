@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  
+
   
 }
 
@@ -12,7 +12,21 @@ h1 {
   font-size: 4rem;
 }
 
-.cards {
+h2 {
   display: flex;
   justify-content: center;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 5% 20%;
+}
+
+.card-preview {
+  flex: 1 1 calc(33.333% - 20px); 
+  max-width: calc(33.333% - 20px); 
+  box-sizing: border-box; 
 }

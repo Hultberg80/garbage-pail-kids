@@ -14,7 +14,7 @@ const Navbar = () => {
                     borderRadius: '8px'
                  }}>Cards</a>
             </div>
-            <h1>Garbage Pail Kids</h1>
+            <h1>Welcome to Garbage Pail Kids</h1>
         </nav>
     );
 }
