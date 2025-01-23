@@ -1,15 +1,20 @@
 const Navbar = () => {
     return (  
-        <nav className="navbar">
-            <h1>Garbage Pail Kids</h1>
+        <nav className="nav">
+            
             <div className="links">
-                <a href="/">Home</a>
+                <a href="/create" style={{
+                    color: "white",
+                    backgroundColor: "green",
+                    borderRadius: '8px'
+                }}>Home</a>
                 <a href="/create" style={{
                     color: "white",
                     backgroundColor: "#f1356d",
                     borderRadius: '8px'
                  }}>Cards</a>
             </div>
+            <h1>Garbage Pail Kids</h1>
         </nav>
     );
 }
