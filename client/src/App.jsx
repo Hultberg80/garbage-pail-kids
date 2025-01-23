@@ -1,11 +1,19 @@
+import Cards from "./Cards.jsx"
+import Navbar from "./Navbar.jsx"
+
+
+
 function App() {
-  return <h1>Garbage Pail Kids</h1>
-  <img url=""></img>
-
+  return (
+     <div className="navbar">
+      <Navbar />
+       <div className = "App">
+        <div className="cards">
+        <Cards />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default function MainApp() {
-  return <div className = "App">
-    <App />
-  </div>
-}
+export default App;
