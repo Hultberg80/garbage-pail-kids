@@ -1,10 +1,11 @@
-import Cards from "./Cards.jsx"
+import Cards from "./components/Cards.jsx"
 import Navbar from "./Navbar.jsx"
+import Cart from "./components/Cart.jsx"
 
 
 
 function App() {
-  return (
+  return ( <>
      <div className="navbar">
       <Navbar />
        <div className = "App">
@@ -13,6 +14,10 @@ function App() {
         <Cards />
       </div>
     </div>
+    <div className="cart">
+    <Cart />
+    </div>
+    </>
   );
 }
 

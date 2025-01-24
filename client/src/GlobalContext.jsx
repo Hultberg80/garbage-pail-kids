@@ -25,6 +25,7 @@ function GlobalProvider({ children }){
             alert("Can't find " + name + " in cart!");
         } else if (cart[index].amount > 1) {
             const tempCart = [...cart]
+            tempCart[index].amount -= 1
             setCart(tempCart)
         } else if (cart[index].amount <= 1) {
             const newCart = cart.filter((item, i) => i !== index)
