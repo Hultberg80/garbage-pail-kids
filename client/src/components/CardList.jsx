@@ -1,4 +1,5 @@
-import Cards from "./Cards";
+import Cards from "../components/Cards.jsx";
+
 
 const CardList = ({cards, name}) => {
     // const blogs = props.blogs;

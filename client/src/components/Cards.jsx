@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CardList from "./CardList";
+
 
 const Cards = () => {
     const [cards, setCards] = useState([
