@@ -1,6 +1,7 @@
 import Cards from "./components/Cards.jsx"
 import Navbar from "./Navbar.jsx"
 import Cart from "./components/Cart.jsx"
+import { GlobalProvider } from "./GlobalContext.jsx";
 
 
 
@@ -15,7 +16,9 @@ function App() {
       </div>
     </div>
     <div className="cart">
-    <Cart />
+      <GlobalProvider>
+        <Cart />
+        </GlobalProvider>
     </div>
     </>
   );
